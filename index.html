@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de Layout - Bootstrap 5</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+
+</head>
+<body>
+<header class="topo shadow-sm sticky-top" id="topo">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 ">
+				<nav class="navbar navbar-light d-sm-none justify-content-end">
+				  <div class="container-fluid justify-content-end">
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile" >
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				  </div>
+				</nav>
+				<div class="d-none d-sm-block">
+				<nav class="nav justify-content-end ">
+					<a class="nav-link" href="#topo">Home</a>
+					<a class="nav-link" href="#quem">Qualificações</a>
+					<a class="nav-link" href="#cursos">Projetos</a>
+					<a class="nav-link" href="#clientes">Empresas</a>
+					<a class="nav-link" href="#contato">Contato</a>
+					<a class="btn btn-success rounded-pill" href="#">+351 999 888 777</a>
+				</nav>
+				</div>
+
+			</div>
+			<div class="col-12">
+				<div class="collapse" id="menuMobile">
+				<nav class="nav flex-column justify-content-end ">
+					<a class="nav-link" href="#topo">Home</a>
+					<a class="nav-link" href="#quem">Qualificações</a>
+					<a class="nav-link" href="#cursos">Projetos</a>
+					<a class="nav-link" href="#clientes">Empresas</a>
+					<a class="nav-link" href="#contato">Contato</a>
+					<a class="btn btn-success rounded-pill" href="#">+351 999 888 777</a>
+				</nav>
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+</header>
+
+<section class="banner-topo">
+	<div class="container">
+	<div class="row">
+		<div class="col-12 col-sm-6 order-2 order-sm-1">
+			<img src="images/perfil.jpg" class="img-destaque d-block mx-auto mt-3" alt="Daniel Paes">
+		</div>
+		<div class="col-12 col-sm-6 order-sm-2 align-self-center">
+			<h1 class="cor-tema">Daniel Paes</h1>
+			<p>Profissional de TI com mais de 20 anos de experiência gerenciando infraestruturas, soluções e serviços de TI, sempre com foco no desenvolvimento de equipes. Capacidade comprovada de liderar iniciativas estratégicas, garantir a conformidade com os padrões de segurança cibernética e melhorar a eficiência operacional. Experiência no desenvolvimento e implementação de soluções tecnológicas inovadoras para apoiar o crescimento dos negócios.</p>
+			<a href="https://www.linkedin.com/in/daniel-paes-silva/" class="btn btn-primary rounded-pill btn-lg">Acesse meu LinkedIn</a>
+		</div>
+	</div>
+	</div>
+</section>
+<section class="destaque">
+	<div class="container mt-5 mb-5">
+		<div class="row">
+			<div class="col-12 col-sm-4 text-center">
+				<img src="images/brain.png" class="d-block mx-auto" alt="destaque">
+				<h4 class="cor-tema mt-3">Análise e Desenvolvimento de Software</h4>
+				<p>Formação realizada na UNICARIOCA na cidade do Rio de Janeiro </p>
+
+			</div>
+			<div class="col-12 col-sm-4 text-center">
+				<img src="images/brain.png" class="d-block mx-auto" alt="destaque">
+				<h4 class="cor-tema mt-3">Pós Graduação em Terapia Cognitiva Comportamental</h4>
+				<p>Formação realizada na UNILEYA na cidade do Rio de Janeiro</p>
+
+			</div>
+			<div class="col-12 col-sm-4 text-center">
+				<img src="images/brain.png" class="d-block mx-auto" alt="destaque">
+				<h4 class="cor-tema mt-3">MBA em Gerenciamento de Projetos</h4>
+				<p>Formação realizada na USP na cidade de São Paulo</p>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+<section class="quem-somos" id="quem">
+	<div class="container ">
+		<div class="row">
+			<div class="col-12 col-sm-8 align-self-center">
+				<p class="h1">Principais Qualificações</p>
+				<p class="w-75">Experiência em liderar equipes de TI, supervisionando o desempenho e motivando os membros para alcançar resultados excepcionais.</p>
+				<p class="w-75">Sólida experiência no planejamento e implementação de projetos de TI, garantindo o cumprimento de prazos, orçamentos e requisitos de qualidade.</p>
+				<p class="w-75">Conhecimento de infraestrutura de rede, servidores, armazenamento de dados, virtualização e gerenciamento de serviços de TI.</p>
+				<p class="w-75">Excelentes habilidades de comunicação e capacidade de explicar conceitos técnicos complexos para públicos não técnicos.</p>
+			</div>
+			<div class="col-12 col-sm-4 align-self-center">
+				<img src="images/PICTURE.jpg" class="img-destaque d-block mx-auto picture" alt="Daniel Paes">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="cursos">
+	<div class="container mt-5 mb-5">
+		<div class="col-12 text-center">
+			<h2 class="h1 cor-tema">Projetos entregues</h2>
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-4">
+				<div class="card" >
+				  <img src="images/MAIS.jpg" class="card-img-top" alt="Curso">
+				  <div class="card-body">
+				    <h5 class="card-title">Projeto MA+S</h5>
+				    <p class="card-text">Construção de uma nova planta produtiva capacitada em aumentar 4x a produção de medicamentos.</p>
+				    <a href="#" class="btn btn-primary">Saiba Mais</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4">
+				<div class="card" >
+				  <img src="images/ALLO.jpg" class="card-img-top" alt="Curso">
+				  <div class="card-body">
+				    <h5 class="card-title">Projeto ALLO</h5>
+				    <p class="card-text">Migração da sede da empresa para uma nova unidade de negócio com melhoria da experiência ao usuário.</p>
+				    <a href="#" class="btn btn-primary">Saiba Mais</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-4">
+				<div class="card" >
+				  <img src="images/ESOCIAL.jpg" class="card-img-top" alt="Curso">
+				  <div class="card-body">
+				    <h5 class="card-title">Projeto E-SOCIAL</h5>
+				    <p class="card-text">Desenvolvimento do sistema para capacitar o envio de informações dos mais de 60mil funcionários do grupo.</p>
+				    <a href="#" class="btn btn-primary">Saiba Mais</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="clientes" id="clientes">
+	<div class="container mt-5 mb-5">
+		<div class="row text-center">
+			<div class="col-12">
+				<h2 class="h1 cor-tema">Empresas</h2>
+			</div>
+
+	<div id="meuslide" class="carousel carousel-dark carousel slide " data-bs-ride="carousel">
+		<!--
+	<ol class="carousel-indicators">
+		<li data-bs-target="#meuslide" data-bs-slide-to="0" class="active"></li>
+		<li data-bs-target="#meuslide" data-bs-slide-to="1"></li>
+		
+	</ol>-->
+
+
+	<div class="carousel-inner mt-5">
+		<div class="carousel-item active">
+			<div class="row">
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/BNDES.jpg" alt="teste">
+				</div>
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/HYPERA.jpg" alt="teste">
+				</div>
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/REDEDOR.jpg" alt="teste">
+				</div>
+			</div>			
+		</div>
+		<div class="carousel-item ">
+			<div class="row">
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/CIMED.jpg" alt="teste">
+				</div>
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/WA.jpg" alt="teste">
+				</div>
+				<div class="col-12 col-sm-4">
+					<img class="d-block w-100" src="images/GALP.jpg" alt="teste">
+				</div>
+			</div>			
+		</div>
+		
+	<a class="carousel-control-prev" href="#meuslide" role="button" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+		<span class="visually-hidden">Anterior</span>
+	</a>
+	<a class="carousel-control-next" href="#meuslide" role="button" data-bs-slide="next">
+		<span class="carousel-control-next-icon"></span>
+		<span class="visually-hidden">Próximo</span>
+	</a>
+	</div>
+
+	
+</div>
+
+
+		</div>
+	</div>
+</section>
+
+<footer class="rodape" id="contato">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-12 mt-5 mb-5">
+				<h4>Endereço</h4>
+				<p>Endereço Rua de Ana Maria,<br>Sintra - Portugal</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
